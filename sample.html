@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="sample.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <div class="form">
+      <input type="text" id="task-input" placeholder="Add new task" style="background-color: aquamarine;">
+      <select id="importance-select" style="background-color: blueviolet;">
+        <option value="low" style="background-color: blue;">Low Importance</option>
+        <option value="medium" style="background-color:  aqua;">Medium Importance</option>
+        <option value="high" style="background-color:  brown;">High Importance</option>
+      </select>
+      <button id="add-task-btn">Add</button>
+      <button id="delete-btn">Delete</button>
+    </div>
+    <input type="date" id="date-input">
+    <input type="text" id="location-input" placeholder="Location">
+    <br>
+
+    <br>
+    <ul id="task-list">
+    </ul>
+  </div>
+  <script src="sample.js"></script>
+</body>
+
+</html>
